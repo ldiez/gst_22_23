@@ -20,7 +20,7 @@ int main()
     else
     {
       printf("**** FAILED: Func1 with input %d\n", i);
-      assert(false && "**** FAILED: Func1 with input %d\n");
+      //assert(false && "**** FAILED: Func1 with input %d\n");
       ret = -1;
     }
   }
