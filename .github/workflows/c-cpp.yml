@@ -2,17 +2,7 @@ name: C/C++ CI
 
 on:
   push:
-    paths:
-      - '**.c'
-    paths-ignore:
-      - 'docs/**'      
-    branches: [ main, develop]
-  pull_request:
-    branches: [ main, develop ]
-  schedule:
-    - cron '30 5,17 * * *'  
-    
-
+    branches: [ main]
 jobs:
   build:
     runs-on: ubuntu-latest
