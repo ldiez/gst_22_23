@@ -21,7 +21,7 @@ int main()
     {
       printf("**** FAILED: Func1 with input %d\n", i);
       assert(false && "**** FAILED: Func1 with input %d\n");
-      int ret = -1;
+      ret = -1;
     }
   }
   return ret;
