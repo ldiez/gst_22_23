@@ -5,7 +5,8 @@
 
 int Func1(int i)
 {
-  return i != 8 ? i : -1;
+  //return i != 8 ? i : -1;
+  return i;
 }
 
 int main()
