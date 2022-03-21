@@ -5,7 +5,7 @@
 
 int Func1(int i)
 {
-  //return i != 8 ? i : -1;
+  // return i != 7 ? i : -1;
   return i;
 }
 
@@ -21,7 +21,7 @@ int main()
     else
     {
       printf("**** FAILED: Func1 with input %d\n", i);
-      //assert(false && "**** FAILED: Func1 with input %d\n");
+      // assert(false && "**** FAILED: Func1 with input %d\n");
       ret = -1;
     }
   }
