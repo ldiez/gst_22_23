@@ -10,9 +10,6 @@ int Func1(int i)
 }
 
 
-
-
-
 int main()
 {
   int ret = 0;
