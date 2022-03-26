@@ -5,13 +5,14 @@
 
 int Basic(int i)
 {
-  // return i != 6 ? i : -1;
-  return i;
+  return i != 6 ? i : -1;
+  //return i;
 }
 
 int Feature1(int i)
 {
-  return 2*i;
+  //return 2*i;
+  return i != 5 ? 2*i : -1;
 }
 
 
